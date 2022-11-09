@@ -1,4 +1,4 @@
-## Activity Rules
+## Rules
 - 스터디 시작 전까지 요구한 문제를 풀어주세요.
 -	풀이한 코드는 본인의 브랜치에 커밋한 후 `pull request`하여 `main branch`에 합치도록 합니다.
 -	시도했지만 해결하지 못한 문제가 있는 경우 풀이 흔적 또는 틀린 코드를 함께 올리도록 합니다.
@@ -7,7 +7,7 @@
 -	발표자는 스터디 시작 5분 전까지는 발표자료를 올리도록 합니다.
 -	발표자는 매주 `일요일`까지 `wiki` 페이지를 추가하여 다음 주까지 풀어올 문제들을 지정합니다.
 
-<br>
+<br><br>
 
 ## Convention
 ### Commit Type
@@ -20,35 +20,40 @@
 🔀 [MERGE] : 다른 브랜치와의 충돌 해결 후 Merge <br>
 ♻ [REFACTOR] : 전면 수정 <br>
 
-<br>
+
 
 ### Commit Message
 [Commit Type] 문제 번호 - 문제 이름 <br>
 ex ) `[ADD] 2557 - Hello World`
 
-<br>
+
 
 ### Pull Request
+(다음 시간에 규칙 작성) <br>
+pr을 할 때에는 반드시 본인 이름의 라벨을 추가해주세요.
 
-<br>
-
+<br><br>
 
 ## 🚧 Structure
 ```
 ./
 ├── baekjoon/
-│   ├── yuna
+│   ├── yuna   
+│   │     └── solution-number.cpp
 │   ├── younji
+│   │     └── solution-number.cpp
 │   ├── jaeyoung
+│   │     └── solution-number.java
 │   └── seohee
-├── programmers/
-    ├── yuna
+│         └── solution-number.python
+└── programmers/  
+    ├── yuna       # same as baekjoon case
     ├── younji
     ├── jaeyoung
     └── seohee
 
 ```
-
+<br><br>
 
 ## 📍 Progress Record
 |  | 가유나 | 김윤지 | 김재영 | 임서희 |
