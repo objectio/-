@@ -23,14 +23,16 @@
 
 
 ### Commit Message
-[Commit Type] 문제 번호 - 문제 이름 <br>
-ex ) `[ADD] 2557 - Hello World`
+[Commit Type] 문제 이름 solved by 유저 이름 <br>
+ex ) `[ADD] Hello World by 유저`
 
 
 
 ### Pull Request
-(다음 시간에 규칙 작성) <br>
-pr을 할 때에는 반드시 본인 이름의 라벨을 추가해주세요.
+ - [All] yy-mm-dd by user <br>
+ - [Baekjoon] yy-mm-dd by user <br>
+ - [Programmers] yy-mm-dd by user <br>
+pr을 할 때에는 반드시 본인 이름의 라벨과 상태 라벨을 추가해주세요.
 
 <br><br>
 
@@ -39,13 +41,13 @@ pr을 할 때에는 반드시 본인 이름의 라벨을 추가해주세요.
 ./
 ├── baekjoon/
 │   ├── yuna   
-│   │     └── solution-number.cpp
+│   │     └── solution-name.cpp
 │   ├── younji
-│   │     └── solution-number.cpp
+│   │     └── solution-name.cpp
 │   ├── jaeyoung
-│   │     └── solution-number.java
+│   │     └── solution-name.java
 │   └── seohee
-│         └── solution-number.python
+│         └── solution-name.python
 └── programmers/  
     ├── yuna       # same as baekjoon case
     ├── younji
