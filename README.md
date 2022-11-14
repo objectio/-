@@ -23,8 +23,8 @@
 
 
 ### Commit Message
-[Commit Type] 문제 이름 solved by 유저 이름 <br>
-ex ) `[ADD] Hello World by 유저`
+[Commit Type] 문제 이름 from 사이트 이름 <br>
+ex ) `[ADD] Hello World from programmers`
 
 
 
